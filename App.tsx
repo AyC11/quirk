@@ -10,6 +10,7 @@ import {
   SUPPORT_SCREEN,
   MARKDOWN_ARTICLE_SCREEN,
 } from "./src/screens";
+
 import SettingScreen from "./src/SettingsScreen";
 import withErrorBoundary from "./src/sentry/withErrorBoundary";
 import PaymentScreen from "./src/payments/PaymentScreen";
@@ -19,7 +20,7 @@ import React from "react";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import TabBar from "./src/tabbar/TabBar";
 import OnboardingScreen from "./src/onboarding";
-import IndexLearnScreen from "./src/learn";
+import IndexLearnScreen from "./src/learn"
 import CheckupScreen from "./src/checkups";
 import { setCustomText } from "react-native-global-props";
 import { Platform } from "react-native";
